@@ -64,6 +64,104 @@ Python 3.x
 
 
 
+
+
+
+
+
+
+Optional for testing:
+
+pytest (for running unit tests)
+
+
+
+
+
+
+
+
+
+
+To install pytest for testing:
+
+
+
+
+Run the command:
+
+
+```
+pip install pytest
+
+
+      or
+
+```
+pip3 install pytest
+
+
+
+on your bash shell/cmd.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Testing 🧪
+
+Run unit tests using:
+
+
+```
+pytest soul_prompt.py
+
+
+      or
+
+```
+python -m pytest soul_prompt.py
+
+       
+      or
+
+``` 
+
+python3 soul_prompt.py
+
+
+      or
+
+``` 
+
+python3 -m pytest soul_prompt.py
+
+
+
+
+
+Unit tests ensure the core functionality of SoulPrompt (like name personalization and quote delivery) is working as expected.
+
+
+
+
+
+
+
+
+
+
 Installation 🔧:
 
 If you haven't installed Python, download it from python's official website.
@@ -72,7 +170,11 @@ If you haven't installed Python, download it from python's official website.
 
 
 
+
+
 Future Improvements 🚀:
+
+Add professional/production-level features like type hinting and logging.
 
 Add color output using the colorama library for a more visually appealing output.
 
@@ -81,6 +183,7 @@ Implement argparse to allow users to customize the delay time and other paramete
 Add quote themes: Tech, Startup, Discipline, etc.
 
 Convert the script into a pip-installable CLI package.
+
 
 
 
